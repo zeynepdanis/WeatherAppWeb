@@ -1,0 +1,147 @@
+
+
+
+.container-fluid {
+
+  background-size: cover;
+  background-image: url(../assets/backgrounds/cloudy-g3f4473c45_1920.jpg) ;
+
+  min-width : 1224px;
+  min-height: 100vh;
+  margin: 0 auto;
+  border-radius: 25px;
+
+
+  box-shadow: 0px 0px 30px #00000065;}
+.weather-box {
+
+  width: 550px;
+  height: 200px;
+  background:rgba(90, 90, 90, 0.2);
+  border-radius: 25px;
+  box-shadow: 0px 0px 30px #00000065;
+  text-align: center;
+  padding: 50px;
+  margin: 50px auto;
+  font-family: "Courier New";
+  font-size: xx-large;
+  font-weight: bold;
+
+
+
+
+
+}
+.weather-box-2 {
+
+  width: 550px;
+  height: 750px;
+  background:rgba(90, 90, 90, 0.2);
+  border-radius: 25px;
+  box-shadow: 0px 0px 30px #00000065;
+  text-align: center;
+  padding: 50px;
+  margin: 0px auto;
+  font-family: "Courier New";
+  font-size: xx-large;
+  font-weight: bold;
+
+
+
+
+
+}
+.a{
+  height: 35px
+
+}
+.try-button{
+
+
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  margin: inherit;
+
+
+}
+#try-button {
+  --b: 3px;   /* border thickness */
+  --s: .15em; /* size of the corner */
+  --c: #182d48;
+
+  padding: calc(.05em + var(--s)) calc(.3em + var(--s));
+  color: var(--c);
+  --_p: var(--s);
+  background:
+          conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--c) 0)
+          var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .2em;
+}
+#try-button:hover,
+#try-button:focus-visible{
+  --_p: 0px;
+  outline-color: var(--c);
+  outline-offset: .05em;
+}
+#try-button:active {
+  background: var(--c);
+  color: #fff;
+}
+#try-button {
+  font-family: system-ui, sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  cursor: pointer;
+  border: none;
+  margin: .1em;
+}
+
+#city-name{
+  font-family: "Courier New";
+  font-size: xxx-large;
+  font-weight: bold;
+
+}
+#countryCode{
+  font-family: "Courier New";
+  font-size: x-large;
+
+}
+
+
+#description{
+
+  font-family: "Courier New";
+  font-size: xx-large;
+}
+
+
+#wind{
+  font-size:30px;
+}
+button{
+  padding: 25px 30px;
+  background-color: transparent;
+  color: #182d48;
+  font-weight: bold;
+  border:none;
+  border-radius: 5px;
+  letter-spacing: 4px;
+  overflow: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+button:hover{
+  background: #84948a;
+  color: #050801;
+  box-shadow: 0 0 5px #84948a,
+  0 0 25px #84948a,
+  0 0 50px #84948a,
+  0 0 200px #84948a;
+  -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
